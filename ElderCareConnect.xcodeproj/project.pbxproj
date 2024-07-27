@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0E328E2C95E0D200A67E34 /* AdminCreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E328B2C93F8A500A67E34 /* AdminCreateRequestViewController.swift */; };
+		BA0E32912C99186D00A67E34 /* VolunteerRequestsSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E32902C99186C00A67E34 /* VolunteerRequestsSignupViewController.swift */; };
+		BA0E32932C9D0C1C00A67E34 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E32922C9D0C1C00A67E34 /* CustomTabBarController.swift */; };
+		BA325F592CA50E4A00C5A3FA /* AdminDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA325F582CA50E4A00C5A3FA /* AdminDashboardViewController.swift */; };
+		BA5821B82C60246800A682F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6A28972C556F6500494F3E /* LaunchScreen.storyboard */; };
+		BA5821BA2C62FBD400A682F5 /* VolunteerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5821B92C62FBD400A682F5 /* VolunteerLoginViewController.swift */; };
+		BA5821BC2C62FDCE00A682F5 /* VolunteerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5821BB2C62FDCE00A682F5 /* VolunteerSignUpViewController.swift */; };
+		BA5821BF2C65DACE00A682F5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BA5821BE2C65DACE00A682F5 /* FirebaseAuth */; };
+		BA5821C52C6824B400A682F5 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5821C42C6824B400A682F5 /* Global.swift */; };
+		BA5821CB2C72B77700A682F5 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5821CA2C72B77700A682F5 /* AdminLoginViewController.swift */; };
+		BA5821CD2C7C29ED00A682F5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BA5821CC2C7C29ED00A682F5 /* FirebaseFirestore */; };
+		BA5821CF2C7C2C8D00A682F5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA5821CE2C7C2C8D00A682F5 /* FirebaseFirestoreSwift */; };
+		BA5F2C7D2C8E4ADA00EEFF3A /* AdminSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F2C7C2C8E4ADA00EEFF3A /* AdminSignUpViewController.swift */; };
+		BA6A288D2C556F6300494F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A288C2C556F6300494F3E /* AppDelegate.swift */; };
+		BA6A288F2C556F6300494F3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A288E2C556F6300494F3E /* SceneDelegate.swift */; };
+		BA6A28912C556F6300494F3E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A28902C556F6300494F3E /* HomePageViewController.swift */; };
+		BA6A28942C556F6300494F3E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA6A28932C556F6300494F3E /* Base */; };
+		BA6A28962C556F6500494F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6A28952C556F6500494F3E /* Assets.xcassets */; };
+		BA6A28A42C556F6500494F3E /* ElderCareConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A28A32C556F6500494F3E /* ElderCareConnectTests.swift */; };
+		BA6A28AE2C556F6500494F3E /* ElderCareConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A28AD2C556F6500494F3E /* ElderCareConnectUITests.swift */; };
+		BA6A28B02C556F6500494F3E /* ElderCareConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A28AF2C556F6500494F3E /* ElderCareConnectUITestsLaunchTests.swift */; };
+		BA6A28BD2C55716900494F3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA6A28BC2C55716900494F3E /* GoogleService-Info.plist */; };
+		BA6A28C02C589B1700494F3E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BA6A28BF2C589B1700494F3E /* FirebaseAnalytics */; };
+		BA6A28C22C589B1800494F3E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = BA6A28C12C589B1800494F3E /* FirebaseAnalyticsOnDeviceConversion */; };
+		BA6A28C42C589B1800494F3E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA6A28C32C589B1800494F3E /* FirebaseAnalyticsSwift */; };
+		BA6A28C62C589B1800494F3E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BA6A28C52C589B1800494F3E /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		BA6A28C82C589B1800494F3E /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BA6A28C72C589B1800494F3E /* FirebaseAppCheck */; };
+		BABE61B12CA39F920046E5DE /* VolunteerDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE61B02CA39F920046E5DE /* VolunteerDashboardViewController.swift */; };
+		BACC2DDB2CB387720054F77C /* VolunteerTodoNotTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC2DDA2CB387720054F77C /* VolunteerTodoNotTodoViewController.swift */; };
+		BACC2DDD2CB4B0CA0054F77C /* VolunteerQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC2DDC2CB4B0CA0054F77C /* VolunteerQuizViewController.swift */; };
+		BAFF30DE2CAA587B00171751 /* AdminProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF30DD2CAA587B00171751 /* AdminProfileViewController.swift */; };
+		BAFF30E02CAD00CA00171751 /* VolunteerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF30DF2CAD00CA00171751 /* VolunteerProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6A28A02C556F6500494F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6A28812C556F6300494F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6A28882C556F6300494F3E;
+			remoteInfo = ElderCareConnect;
+		};
+		BA6A28AA2C556F6500494F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6A28812C556F6300494F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6A28882C556F6300494F3E;
+			remoteInfo = ElderCareConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA0E328B2C93F8A500A67E34 /* AdminCreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCreateRequestViewController.swift; sourceTree = "<group>"; };
+		BA0E32902C99186C00A67E34 /* VolunteerRequestsSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerRequestsSignupViewController.swift; sourceTree = "<group>"; };
+		BA0E32922C9D0C1C00A67E34 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		BA325F582CA50E4A00C5A3FA /* AdminDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardViewController.swift; sourceTree = "<group>"; };
+		BA5821B92C62FBD400A682F5 /* VolunteerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerLoginViewController.swift; sourceTree = "<group>"; };
+		BA5821BB2C62FDCE00A682F5 /* VolunteerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSignUpViewController.swift; sourceTree = "<group>"; };
+		BA5821C42C6824B400A682F5 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		BA5821CA2C72B77700A682F5 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
+		BA5F2C7C2C8E4ADA00EEFF3A /* AdminSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignUpViewController.swift; sourceTree = "<group>"; };
+		BA6A28892C556F6300494F3E /* ElderCareConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElderCareConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A288C2C556F6300494F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA6A288E2C556F6300494F3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA6A28902C556F6300494F3E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		BA6A28932C556F6300494F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA6A28952C556F6500494F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6A28982C556F6500494F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA6A289A2C556F6500494F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6A289F2C556F6500494F3E /* ElderCareConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElderCareConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A28A32C556F6500494F3E /* ElderCareConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderCareConnectTests.swift; sourceTree = "<group>"; };
+		BA6A28A92C556F6500494F3E /* ElderCareConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElderCareConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A28AD2C556F6500494F3E /* ElderCareConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderCareConnectUITests.swift; sourceTree = "<group>"; };
+		BA6A28AF2C556F6500494F3E /* ElderCareConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderCareConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA6A28BC2C55716900494F3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BABE61B02CA39F920046E5DE /* VolunteerDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerDashboardViewController.swift; sourceTree = "<group>"; };
+		BACC2DDA2CB387720054F77C /* VolunteerTodoNotTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerTodoNotTodoViewController.swift; sourceTree = "<group>"; };
+		BACC2DDC2CB4B0CA0054F77C /* VolunteerQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerQuizViewController.swift; sourceTree = "<group>"; };
+		BAFF30DD2CAA587B00171751 /* AdminProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfileViewController.swift; sourceTree = "<group>"; };
+		BAFF30DF2CAD00CA00171751 /* VolunteerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6A28862C556F6300494F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A28C42C589B1800494F3E /* FirebaseAnalyticsSwift in Frameworks */,
+				BA5821BF2C65DACE00A682F5 /* FirebaseAuth in Frameworks */,
+				BA6A28C02C589B1700494F3E /* FirebaseAnalytics in Frameworks */,
+				BA6A28C22C589B1800494F3E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				BA6A28C82C589B1800494F3E /* FirebaseAppCheck in Frameworks */,
+				BA6A28C62C589B1800494F3E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				BA5821CD2C7C29ED00A682F5 /* FirebaseFirestore in Frameworks */,
+				BA5821CF2C7C2C8D00A682F5 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A289C2C556F6500494F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A28A62C556F6500494F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5821BD2C65DACE00A682F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA5F2C6C2C8E28B100EEFF3A /* VolunteerViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA5821B92C62FBD400A682F5 /* VolunteerLoginViewController.swift */,
+				BA5821BB2C62FDCE00A682F5 /* VolunteerSignUpViewController.swift */,
+				BACC2DDA2CB387720054F77C /* VolunteerTodoNotTodoViewController.swift */,
+				BACC2DDC2CB4B0CA0054F77C /* VolunteerQuizViewController.swift */,
+				BA0E32902C99186C00A67E34 /* VolunteerRequestsSignupViewController.swift */,
+				BAFF30DF2CAD00CA00171751 /* VolunteerProfileViewController.swift */,
+				BABE61B02CA39F920046E5DE /* VolunteerDashboardViewController.swift */,
+			);
+			path = VolunteerViews;
+			sourceTree = "<group>";
+		};
+		BA5F2C6D2C8E28FA00EEFF3A /* AdminViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA5821CA2C72B77700A682F5 /* AdminLoginViewController.swift */,
+				BA5F2C7C2C8E4ADA00EEFF3A /* AdminSignUpViewController.swift */,
+				BA0E328B2C93F8A500A67E34 /* AdminCreateRequestViewController.swift */,
+				BA325F582CA50E4A00C5A3FA /* AdminDashboardViewController.swift */,
+				BAFF30DD2CAA587B00171751 /* AdminProfileViewController.swift */,
+			);
+			path = AdminViews;
+			sourceTree = "<group>";
+		};
+		BA6A28802C556F6300494F3E = {
+			isa = PBXGroup;
+			children = (
+				BA6A288B2C556F6300494F3E /* ElderCareConnect */,
+				BA6A28A22C556F6500494F3E /* ElderCareConnectTests */,
+				BA6A28AC2C556F6500494F3E /* ElderCareConnectUITests */,
+				BA6A288A2C556F6300494F3E /* Products */,
+				BA5821BD2C65DACE00A682F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6A288A2C556F6300494F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A28892C556F6300494F3E /* ElderCareConnect.app */,
+				BA6A289F2C556F6500494F3E /* ElderCareConnectTests.xctest */,
+				BA6A28A92C556F6500494F3E /* ElderCareConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6A288B2C556F6300494F3E /* ElderCareConnect */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A28972C556F6500494F3E /* LaunchScreen.storyboard */,
+				BA6A28922C556F6300494F3E /* Main.storyboard */,
+				BA6A28902C556F6300494F3E /* HomePageViewController.swift */,
+				BA5F2C6D2C8E28FA00EEFF3A /* AdminViews */,
+				BA5F2C6C2C8E28B100EEFF3A /* VolunteerViews */,
+				BA6A28952C556F6500494F3E /* Assets.xcassets */,
+				BA5821C42C6824B400A682F5 /* Global.swift */,
+				BA6A288C2C556F6300494F3E /* AppDelegate.swift */,
+				BA6A288E2C556F6300494F3E /* SceneDelegate.swift */,
+				BA0E32922C9D0C1C00A67E34 /* CustomTabBarController.swift */,
+				BA6A28BC2C55716900494F3E /* GoogleService-Info.plist */,
+				BA6A289A2C556F6500494F3E /* Info.plist */,
+			);
+			path = ElderCareConnect;
+			sourceTree = "<group>";
+		};
+		BA6A28A22C556F6500494F3E /* ElderCareConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A28A32C556F6500494F3E /* ElderCareConnectTests.swift */,
+			);
+			path = ElderCareConnectTests;
+			sourceTree = "<group>";
+		};
+		BA6A28AC2C556F6500494F3E /* ElderCareConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A28AD2C556F6500494F3E /* ElderCareConnectUITests.swift */,
+				BA6A28AF2C556F6500494F3E /* ElderCareConnectUITestsLaunchTests.swift */,
+			);
+			path = ElderCareConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6A28882C556F6300494F3E /* ElderCareConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A28B32C556F6500494F3E /* Build configuration list for PBXNativeTarget "ElderCareConnect" */;
+			buildPhases = (
+				BA6A28852C556F6300494F3E /* Sources */,
+				BA6A28862C556F6300494F3E /* Frameworks */,
+				BA6A28872C556F6300494F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElderCareConnect;
+			packageProductDependencies = (
+				BA6A28BF2C589B1700494F3E /* FirebaseAnalytics */,
+				BA6A28C12C589B1800494F3E /* FirebaseAnalyticsOnDeviceConversion */,
+				BA6A28C32C589B1800494F3E /* FirebaseAnalyticsSwift */,
+				BA6A28C52C589B1800494F3E /* FirebaseAnalyticsWithoutAdIdSupport */,
+				BA6A28C72C589B1800494F3E /* FirebaseAppCheck */,
+				BA5821BE2C65DACE00A682F5 /* FirebaseAuth */,
+				BA5821CC2C7C29ED00A682F5 /* FirebaseFirestore */,
+				BA5821CE2C7C2C8D00A682F5 /* FirebaseFirestoreSwift */,
+			);
+			productName = ElderCareConnect;
+			productReference = BA6A28892C556F6300494F3E /* ElderCareConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6A289E2C556F6500494F3E /* ElderCareConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A28B62C556F6500494F3E /* Build configuration list for PBXNativeTarget "ElderCareConnectTests" */;
+			buildPhases = (
+				BA6A289B2C556F6500494F3E /* Sources */,
+				BA6A289C2C556F6500494F3E /* Frameworks */,
+				BA6A289D2C556F6500494F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6A28A12C556F6500494F3E /* PBXTargetDependency */,
+			);
+			name = ElderCareConnectTests;
+			productName = ElderCareConnectTests;
+			productReference = BA6A289F2C556F6500494F3E /* ElderCareConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6A28A82C556F6500494F3E /* ElderCareConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A28B92C556F6500494F3E /* Build configuration list for PBXNativeTarget "ElderCareConnectUITests" */;
+			buildPhases = (
+				BA6A28A52C556F6500494F3E /* Sources */,
+				BA6A28A62C556F6500494F3E /* Frameworks */,
+				BA6A28A72C556F6500494F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6A28AB2C556F6500494F3E /* PBXTargetDependency */,
+			);
+			name = ElderCareConnectUITests;
+			productName = ElderCareConnectUITests;
+			productReference = BA6A28A92C556F6500494F3E /* ElderCareConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6A28812C556F6300494F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BA6A28882C556F6300494F3E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BA6A289E2C556F6500494F3E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BA6A28882C556F6300494F3E;
+					};
+					BA6A28A82C556F6500494F3E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BA6A28882C556F6300494F3E;
+					};
+				};
+			};
+			buildConfigurationList = BA6A28842C556F6300494F3E /* Build configuration list for PBXProject "ElderCareConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6A28802C556F6300494F3E;
+			packageReferences = (
+				BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BA6A288A2C556F6300494F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6A28882C556F6300494F3E /* ElderCareConnect */,
+				BA6A289E2C556F6500494F3E /* ElderCareConnectTests */,
+				BA6A28A82C556F6500494F3E /* ElderCareConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6A28872C556F6300494F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A28962C556F6500494F3E /* Assets.xcassets in Resources */,
+				BA6A28BD2C55716900494F3E /* GoogleService-Info.plist in Resources */,
+				BA5821B82C60246800A682F5 /* LaunchScreen.storyboard in Resources */,
+				BA6A28942C556F6300494F3E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A289D2C556F6500494F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A28A72C556F6500494F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6A28852C556F6300494F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5821BC2C62FDCE00A682F5 /* VolunteerSignUpViewController.swift in Sources */,
+				BA325F592CA50E4A00C5A3FA /* AdminDashboardViewController.swift in Sources */,
+				BA0E32912C99186D00A67E34 /* VolunteerRequestsSignupViewController.swift in Sources */,
+				BA0E328E2C95E0D200A67E34 /* AdminCreateRequestViewController.swift in Sources */,
+				BABE61B12CA39F920046E5DE /* VolunteerDashboardViewController.swift in Sources */,
+				BA5821CB2C72B77700A682F5 /* AdminLoginViewController.swift in Sources */,
+				BACC2DDD2CB4B0CA0054F77C /* VolunteerQuizViewController.swift in Sources */,
+				BACC2DDB2CB387720054F77C /* VolunteerTodoNotTodoViewController.swift in Sources */,
+				BA6A28912C556F6300494F3E /* HomePageViewController.swift in Sources */,
+				BAFF30E02CAD00CA00171751 /* VolunteerProfileViewController.swift in Sources */,
+				BA6A288D2C556F6300494F3E /* AppDelegate.swift in Sources */,
+				BA0E32932C9D0C1C00A67E34 /* CustomTabBarController.swift in Sources */,
+				BA5F2C7D2C8E4ADA00EEFF3A /* AdminSignUpViewController.swift in Sources */,
+				BA6A288F2C556F6300494F3E /* SceneDelegate.swift in Sources */,
+				BA5821BA2C62FBD400A682F5 /* VolunteerLoginViewController.swift in Sources */,
+				BA5821C52C6824B400A682F5 /* Global.swift in Sources */,
+				BAFF30DE2CAA587B00171751 /* AdminProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A289B2C556F6500494F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A28A42C556F6500494F3E /* ElderCareConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A28A52C556F6500494F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A28AE2C556F6500494F3E /* ElderCareConnectUITests.swift in Sources */,
+				BA6A28B02C556F6500494F3E /* ElderCareConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6A28A12C556F6500494F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6A28882C556F6300494F3E /* ElderCareConnect */;
+			targetProxy = BA6A28A02C556F6500494F3E /* PBXContainerItemProxy */;
+		};
+		BA6A28AB2C556F6500494F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6A28882C556F6300494F3E /* ElderCareConnect */;
+			targetProxy = BA6A28AA2C556F6500494F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA6A28922C556F6300494F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6A28932C556F6300494F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA6A28972C556F6500494F3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6A28982C556F6500494F3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6A28B12C556F6500494F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA6A28B22C556F6500494F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA6A28B42C556F6500494F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElderCareConnect/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Elder Care Connect";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amish-Gupta.ElderCareConnect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA6A28B52C556F6500494F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElderCareConnect/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Elder Care Connect";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amish-Gupta.ElderCareConnect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA6A28B72C556F6500494F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amish-Gupta.ElderCareConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElderCareConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElderCareConnect";
+			};
+			name = Debug;
+		};
+		BA6A28B82C556F6500494F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amish-Gupta.ElderCareConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElderCareConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElderCareConnect";
+			};
+			name = Release;
+		};
+		BA6A28BA2C556F6500494F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amish-Gupta.ElderCareConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElderCareConnect;
+			};
+			name = Debug;
+		};
+		BA6A28BB2C556F6500494F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amish-Gupta.ElderCareConnectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElderCareConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6A28842C556F6300494F3E /* Build configuration list for PBXProject "ElderCareConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A28B12C556F6500494F3E /* Debug */,
+				BA6A28B22C556F6500494F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A28B32C556F6500494F3E /* Build configuration list for PBXNativeTarget "ElderCareConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A28B42C556F6500494F3E /* Debug */,
+				BA6A28B52C556F6500494F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A28B62C556F6500494F3E /* Build configuration list for PBXNativeTarget "ElderCareConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A28B72C556F6500494F3E /* Debug */,
+				BA6A28B82C556F6500494F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A28B92C556F6500494F3E /* Build configuration list for PBXNativeTarget "ElderCareConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A28BA2C556F6500494F3E /* Debug */,
+				BA6A28BB2C556F6500494F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA5821BE2C65DACE00A682F5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BA5821CC2C7C29ED00A682F5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BA5821CE2C7C2C8D00A682F5 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		BA6A28BF2C589B1700494F3E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BA6A28C12C589B1800494F3E /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		BA6A28C32C589B1800494F3E /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		BA6A28C52C589B1800494F3E /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		BA6A28C72C589B1800494F3E /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6A28BE2C5571AE00494F3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA6A28812C556F6300494F3E /* Project object */;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCHSvzn8UJU8KZoXPNxT_RjrlAyt-9RMGo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>329633143452</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Amish-Gupta.ElderCareConnect</string>
+	<key>PROJECT_ID</key>
+	<string>eldercareconnect-cedc1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eldercareconnect-cedc1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:329633143452:ios:f19f87351f1b7bbe0d6b59</string>
+</dict>
+</plist>
